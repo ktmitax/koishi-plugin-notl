@@ -1,7 +1,15 @@
 {
   "name": "@ktmitax/koishi-plugin-notl",
-  "description": "",
-  "version": "0.0.1",
+  "description": "让你的群友们别跳脸啦~",
+  "version": "1.0.0",
+  "contributors": [
+    "ktmitax <ktmitax@163.com>"
+  ],
+  "homepage": "https://github.com/ktmitax/koishi-plugin-notl", 
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/ktmitax/koishi-plugin-notl.git"
+  },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -16,5 +24,24 @@
   ],
   "peerDependencies": {
     "koishi": "^4.17.6"
+  },
+  "koishi": {
+    "name": "koishi-plugin-notl",
+    "version": "1.0.0",
+    "peerDependencies": {
+      "koishi": "^4.3.2"
+    },
+    "koishi": {
+      "description": {
+        "en": "A simple plugin",
+        "zh": "让你的群友们别跳脸啦"
+      },
+      "service": {
+        "required": [],
+        "optional": [],
+        "implements": []
+      },
+      "locales": ["en", "zh"]
+    }
   }
 }
